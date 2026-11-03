@@ -1,0 +1,7 @@
+project: savantenvs/iree
+target: hf_normalizer_json_fuzz
+cmds:
+  - cmd: /mayhem/hf_normalizer_json_fuzz
+    libfuzzer: true
+    timeout: 60
+    dictionary: /mayhem/mayhem/hf_normalizer_json_fuzz/hf_normalizer_json_fuzz.dict

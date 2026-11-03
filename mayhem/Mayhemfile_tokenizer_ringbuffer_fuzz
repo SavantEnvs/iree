@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: tokenizer_ringbuffer_fuzz
+cmds:
+  - cmd: /mayhem/tokenizer_ringbuffer_fuzz
+    libfuzzer: true
+    timeout: 60

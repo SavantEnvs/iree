@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: decoder_replace_fuzz
+cmds:
+  - cmd: /mayhem/decoder_replace_fuzz
+    libfuzzer: true
+    timeout: 60

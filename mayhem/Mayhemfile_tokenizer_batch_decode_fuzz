@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: tokenizer_batch_decode_fuzz
+cmds:
+  - cmd: /mayhem/tokenizer_batch_decode_fuzz
+    libfuzzer: true
+    timeout: 60

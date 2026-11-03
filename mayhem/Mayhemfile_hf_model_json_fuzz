@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: hf_model_json_fuzz
+cmds:
+  - cmd: /mayhem/hf_model_json_fuzz
+    libfuzzer: true
+    timeout: 60

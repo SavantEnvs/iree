@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: decoder_wordpiece_fuzz
+cmds:
+  - cmd: /mayhem/decoder_wordpiece_fuzz
+    libfuzzer: true
+    timeout: 60

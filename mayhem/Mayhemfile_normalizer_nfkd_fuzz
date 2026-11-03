@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: normalizer_nfkd_fuzz
+cmds:
+  - cmd: /mayhem/normalizer_nfkd_fuzz
+    libfuzzer: true
+    timeout: 60

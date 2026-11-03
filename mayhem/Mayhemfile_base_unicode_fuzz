@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: base_unicode_fuzz
+cmds:
+  - cmd: /mayhem/base_unicode_fuzz
+    libfuzzer: true
+    timeout: 60

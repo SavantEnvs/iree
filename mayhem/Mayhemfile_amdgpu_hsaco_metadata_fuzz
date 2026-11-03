@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: amdgpu_hsaco_metadata_fuzz
+cmds:
+  - cmd: /mayhem/amdgpu_hsaco_metadata_fuzz
+    libfuzzer: true
+    timeout: 60

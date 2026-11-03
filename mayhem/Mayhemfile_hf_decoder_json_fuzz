@@ -1,0 +1,7 @@
+project: savantenvs/iree
+target: hf_decoder_json_fuzz
+cmds:
+  - cmd: /mayhem/hf_decoder_json_fuzz
+    libfuzzer: true
+    timeout: 60
+    dictionary: /mayhem/mayhem/hf_decoder_json_fuzz/hf_decoder_json_fuzz.dict

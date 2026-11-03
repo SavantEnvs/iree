@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: segmenter_punctuation_fuzz
+cmds:
+  - cmd: /mayhem/segmenter_punctuation_fuzz
+    libfuzzer: true
+    timeout: 60

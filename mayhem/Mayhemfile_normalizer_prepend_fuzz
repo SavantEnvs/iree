@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: normalizer_prepend_fuzz
+cmds:
+  - cmd: /mayhem/normalizer_prepend_fuzz
+    libfuzzer: true
+    timeout: 60

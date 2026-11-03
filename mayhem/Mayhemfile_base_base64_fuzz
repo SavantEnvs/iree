@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: base_base64_fuzz
+cmds:
+  - cmd: /mayhem/base_base64_fuzz
+    libfuzzer: true
+    timeout: 60

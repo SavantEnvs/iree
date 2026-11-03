@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: regex_fuzz
+cmds:
+  - cmd: /mayhem/regex_fuzz
+    libfuzzer: true
+    timeout: 60

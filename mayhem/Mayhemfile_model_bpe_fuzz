@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: model_bpe_fuzz
+cmds:
+  - cmd: /mayhem/model_bpe_fuzz
+    libfuzzer: true
+    timeout: 60

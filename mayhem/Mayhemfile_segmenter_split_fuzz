@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: segmenter_split_fuzz
+cmds:
+  - cmd: /mayhem/segmenter_split_fuzz
+    libfuzzer: true
+    timeout: 60

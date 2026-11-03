@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: vocab_fuzz
+cmds:
+  - cmd: /mayhem/vocab_fuzz
+    libfuzzer: true
+    timeout: 60

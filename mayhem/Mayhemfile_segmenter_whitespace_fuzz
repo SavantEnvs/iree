@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: segmenter_whitespace_fuzz
+cmds:
+  - cmd: /mayhem/segmenter_whitespace_fuzz
+    libfuzzer: true
+    timeout: 60

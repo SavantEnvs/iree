@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: decoder_metaspace_fuzz
+cmds:
+  - cmd: /mayhem/decoder_metaspace_fuzz
+    libfuzzer: true
+    timeout: 60

@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: decoder_ctc_fuzz
+cmds:
+  - cmd: /mayhem/decoder_ctc_fuzz
+    libfuzzer: true
+    timeout: 60

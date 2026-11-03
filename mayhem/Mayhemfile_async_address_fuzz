@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: async_address_fuzz
+cmds:
+  - cmd: /mayhem/async_address_fuzz
+    libfuzzer: true
+    timeout: 60

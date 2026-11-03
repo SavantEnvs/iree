@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: special_tokens_fuzz
+cmds:
+  - cmd: /mayhem/special_tokens_fuzz
+    libfuzzer: true
+    timeout: 60

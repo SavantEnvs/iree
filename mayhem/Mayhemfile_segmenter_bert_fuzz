@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: segmenter_bert_fuzz
+cmds:
+  - cmd: /mayhem/segmenter_bert_fuzz
+    libfuzzer: true
+    timeout: 60

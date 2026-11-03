@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: normalizer_lowercase_fuzz
+cmds:
+  - cmd: /mayhem/normalizer_lowercase_fuzz
+    libfuzzer: true
+    timeout: 60

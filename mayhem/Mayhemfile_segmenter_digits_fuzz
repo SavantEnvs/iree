@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: segmenter_digits_fuzz
+cmds:
+  - cmd: /mayhem/segmenter_digits_fuzz
+    libfuzzer: true
+    timeout: 60

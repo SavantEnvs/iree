@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: postprocessor_fuzz
+cmds:
+  - cmd: /mayhem/postprocessor_fuzz
+    libfuzzer: true
+    timeout: 60

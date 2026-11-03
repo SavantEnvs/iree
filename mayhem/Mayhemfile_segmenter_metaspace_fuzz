@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: segmenter_metaspace_fuzz
+cmds:
+  - cmd: /mayhem/segmenter_metaspace_fuzz
+    libfuzzer: true
+    timeout: 60

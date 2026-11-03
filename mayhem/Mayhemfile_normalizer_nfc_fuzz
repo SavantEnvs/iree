@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: normalizer_nfc_fuzz
+cmds:
+  - cmd: /mayhem/normalizer_nfc_fuzz
+    libfuzzer: true
+    timeout: 60

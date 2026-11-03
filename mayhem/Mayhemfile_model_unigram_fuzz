@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: model_unigram_fuzz
+cmds:
+  - cmd: /mayhem/model_unigram_fuzz
+    libfuzzer: true
+    timeout: 60

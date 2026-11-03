@@ -1,0 +1,6 @@
+project: savantenvs/iree
+target: tiktoken_fuzz
+cmds:
+  - cmd: /mayhem/tiktoken_fuzz
+    libfuzzer: true
+    timeout: 60
